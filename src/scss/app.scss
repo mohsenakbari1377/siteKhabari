@@ -1,0 +1,43 @@
+
+/* import abstract folder */
+@import 'abstract/var';
+@import 'abstract/utilities';
+@import 'abstract/mixins';
+@import 'abstract/functions';
+
+/* import base folder */
+@import 'base/reset';
+@import 'base/base';
+@import 'base/fonts';
+@import 'base/typography';
+
+/* import components folder */
+@import 'components/buttons';
+@import 'components/carousel';
+// import layout folder
+@import 'layout/header';
+@import 'layout/sidebar';
+@import 'layout/navigations';
+@import 'layout/footer';
+@import 'layout/sectionOne';
+@import 'layout/sectionTwo';
+@import 'layout/sectionThree';
+@import 'layout/section-four';
+
+
+/* import pages folder */
+@import 'pages/home';
+
+/* import themes folder*/
+
+
+
+/* import  Vendor  folder*/
+@import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import './vendors/bootstrap-rtl.css';
+@import '/node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+p
+{
+    color: aqua;
+}

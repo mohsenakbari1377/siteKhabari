@@ -1,0 +1,80 @@
+.section-two
+{
+    display: flex;
+
+    .img_right
+    {
+        flex: 25%;
+        height: 5rem;
+        width: 51rem;
+        .gif
+        {
+            width: 35rem;
+            margin-top: 2rem;
+            cursor: pointer;
+        }
+    }
+    .img__middle
+    {
+        flex: 50%;
+        display: flex;
+        margin-top: 4rem;
+        .gif2
+        {
+            display: flex;
+            flex: 0.5;
+            width: 45rem;
+            margin-left: 6rem;
+        }
+        .list-icon
+        {
+            display: flex;
+            
+            flex: .5;
+            
+            .icon
+            {   
+                width: 5rem;
+                height: 5rem;
+                background-color: #841B11;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .img-icon
+            {
+              
+            }
+            
+        }
+    }
+    .btn-two
+    {
+        flex: 25%;
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+        .btn-signup
+        {
+            background-color: #841B11;
+            outline: none;
+            border: none;
+            color: white;
+            font-size: 2rem;
+            padding:0 1rem;
+            border-radius: 0.3rem;
+            margin-left: 1rem;
+        }
+        .btn-Protection
+        {
+            background-color:white ;
+            outline: none;
+            border:1px solid #841B11;
+            color: #841B11;
+            font-size: 2rem;
+            padding:0 1rem;
+            border-radius: 0.3rem;
+        }
+    }
+}

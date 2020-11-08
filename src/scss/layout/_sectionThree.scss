@@ -1,0 +1,59 @@
+.section-three
+{
+    display: flex;
+    margin-top: 3rem;
+    .sec-right
+    {
+        flex: 25%;
+        &__img
+        {
+            padding: 3rem;
+        }
+    }
+
+    .sec-left
+    {
+        flex: 75%;
+        margin-right: 3rem;
+
+        .provincialNews
+        {
+            background: $section-one-color;
+            display: flex;
+
+            &__map
+            {
+                display: flex;
+                flex: .5;
+            }
+            &__news
+            {
+                display: flex;
+                flex: .5;
+            }
+            .ForeignPolicy__img
+            {
+                display: flex;
+                padding: 2rem;
+            }
+        }
+        .title
+        {
+            display: flex;
+            flex-direction: column;
+            .title-heading
+            {
+                font-size: 1.8rem;
+                color: $bg-header;
+
+            }
+            .title-paragraph
+            {
+                font-size: 1.4rem;
+                color: $border-bottom;
+                padding-top: 1rem;
+            }
+        }
+
+    }
+}

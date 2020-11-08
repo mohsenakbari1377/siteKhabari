@@ -1,0 +1,38 @@
+.header__logo-text
+{
+    font-size:2.2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+
+}
+
+
+.InternalNews__heading-color
+{
+    padding: 1rem 2rem;
+    border-bottom: 3px solid $border-bottom;
+    width: 50%;
+    font-weight: bold;
+}
+.InternalNews__heading-color-middle
+{
+    padding: 1rem 2rem;
+    border-bottom: 3px solid $border-bottom;
+    width: 100%;
+    font-weight: bold;
+}
+.headNews
+{
+    font-size: 2.2rem;
+    color: #B94238;
+    &__subject
+    {
+        padding: 1rem 2rem;
+        border-bottom: 3px solid #707070;
+        width: 100%;
+        font-weight: bold;
+    }
+}

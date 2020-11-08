@@ -1,0 +1,134 @@
+.footer
+{
+    background-color: $bg-footer;
+    display: flex;
+    .col1
+    {
+        flex: 20%;
+        .col1__list
+        {
+            padding: 2rem;
+        }
+        .col1-item-link
+        {
+            font-size: 1.8rem;
+            color: white;
+        }
+        .col1-item
+        {
+            margin-bottom: 1rem;
+        }
+    }
+    .col2
+    {
+        flex: 20%;
+        .col1__list
+        {
+            padding: 2rem;
+        }
+        .col1-item-link
+        {
+            font-size: 1.8rem;
+            color: white;
+        }
+        .col1-item
+        {
+            margin-bottom: 1rem;
+        }
+    }
+    .col3
+    {
+        flex: 20%;
+        .col1__list
+        {
+            padding: 2rem;
+        }
+        .col1-item-link
+        {
+            font-size: 1.8rem;
+            color: white;
+        }
+        .col1-item
+        {
+            margin-bottom: 1rem;
+        }
+    }
+    .col4
+    {
+        flex: 20%;
+        .col1__list
+        {
+            padding: 2rem;
+        }
+        .col1-item-link
+        {
+            font-size: 1.8rem;
+            color: white;
+        }
+        .col1-item
+        {
+            margin-bottom: 1rem;
+        }
+    }
+    .col5
+    {
+        flex: 20%;
+        .col1__list
+        {
+            padding: 2rem;
+        }
+        .col1-item-link
+        {
+            font-size: 1.8rem;
+            color: white;
+        }
+        .col1-item
+        {
+            margin-bottom: 1rem;
+        }
+    }
+}
+.sub-footer
+{
+    background-color: $bg-header;
+    max-height: 14rem;
+    width: 100%;
+    display: flex;
+}
+.social-network
+{
+    flex-direction: column;
+    flex: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo
+{
+    max-width: 30rem;
+    flex: 30%;
+    
+}
+.social-network__list
+{
+    display: flex;
+}
+.social-network__list-img
+{
+    padding: 1rem 2rem ;
+}
+.link-item
+{
+    display: flex;
+}
+.link-item-1
+{
+    padding: 2rem;
+    font-size: 1.8rem;
+    color: white;
+}
+.link-item-1-a
+{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,195 @@
+.section-one
+{
+    display: flex;
+    .InternalNews
+    {
+        flex: 25%;
+        padding-left: 3rem;
+        &__heading
+        {
+            font-size: 2.2rem;
+            color: $color-heading ;
+        }
+    }
+    .NewsHeadlines
+    {
+        flex: 50%;
+        .ForeignPolicy__img
+        {
+            display: flex;
+            background-color: #E5E5E5;
+            padding: 1rem;
+            border-bottom: 3px solid #707070;
+
+        }
+        .title
+        {
+            display: flex;
+            flex-direction: column;
+            .title-heading
+            {
+                font-size: 2.2rem;
+                color: $bg-header;
+
+            }
+            .title-paragraph
+            {
+                font-size: 1.6rem;
+                color: $border-bottom;
+                padding-top: 1rem;
+            }
+        }
+    }
+    .favorites
+    {
+        display: flex;
+        flex: 25%;
+        flex-direction: column;
+        padding: 0 1rem;
+        &__tab
+        {
+            display: flex;
+                &-list
+                {
+                    display: flex;
+                    flex:1;
+                }
+        }
+        .single-tab
+        {
+            height: 3rem;
+            margin-top: 2rem;
+            flex: 1;
+            margin-left:0.3rem;
+            background-color: white;
+            &-link
+            {
+                font-size: 1.2rem;
+                color: #707070;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                font-weight: bold;
+            }
+        }
+        &__news
+        {
+            background-color: $dark-color;
+            &-single
+            {
+                display: flex;
+                padding: 0.5rem 1rem;
+            }
+        }
+        .heading-news
+        {
+            flex: 1;
+            .heading-news-single
+            {
+                font-size: 1.4rem;
+                font-weight: bold;
+                color: white;
+                padding-bottom: 1rem;
+                border-bottom: 2px solid white;
+                &--des
+                {
+                    color: $dark-color-text;
+                    padding: 1rem;
+                    font-size: 1.2rem;
+                }
+            }
+            
+        }
+        .chiefEditor
+        {
+            display: flex;
+            padding: 1rem;
+            .title
+        {
+            display: flex;
+            flex-direction: column;
+            .title-heading
+            {
+                font-size: 1.8rem;
+                color: $bg-header;
+
+            }
+            .title-paragraph
+            {
+                font-size: 1.4rem;
+                color: $border-bottom;
+                padding-top: 1rem;
+            }
+        }
+        }
+    }
+    .news
+    {
+        background-color: $section-one-color;
+        padding: 2rem;
+        .newOne
+        {
+           
+            .newOne__head
+            {
+                font-size: 1.8rem;
+                color: $color-head;
+                padding-right: 1rem;
+                border-bottom: 2px solid;
+                padding: 2rem 0;
+            }
+        }
+        .newTwo
+        {
+            display: flex;
+            padding: 2rem 0;
+            .newOne__head2
+            {
+                font-size: 1.6rem;
+                color: $border-bottom;
+                border-bottom: 2px solid;
+
+            }
+        }
+    }
+    .TypesOfNewspapers
+    {
+        display: flex;
+        position: relative;
+        margin-top: 2rem;
+        .TypesOfNewspapers__img
+        {
+            position: relative;
+            flex: 1;
+        }
+        .TypesOfNewspapers__text
+        {
+            color: white;
+            font-size: 2rem;
+            position: absolute;
+            bottom: 3rem;
+            padding: 2rem 4rem;
+            max-width: 50rem;
+            font-weight: bold;
+        }
+        .TypesOfNewspapers__name-p1
+        {
+            display: flex;
+            flex-direction: column;
+        }
+        .TypesOfNewspapers__name-tab
+        {
+            width: 20rem;
+            height: 5rem;
+            background :$color-tab;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin: .1rem 0;
+            font-size: 1.6rem;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
